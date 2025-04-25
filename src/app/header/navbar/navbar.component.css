@@ -21,6 +21,7 @@ nav{
     padding: 10px;
     border-radius: 0px 0px 5px 5px;
     color: white;
+    z-index: 100;
 }
 .scrolled ul li a{
     color: white;
