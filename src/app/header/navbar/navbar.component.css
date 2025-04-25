@@ -1,0 +1,51 @@
+.nav_container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+nav{
+    width: 85vw;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-main);
+}
+.scrolled{
+    background-color: rgb(8, 8, 8);
+    position: fixed;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    color: white;
+}
+.scrolled ul li a{
+    color: white;
+}
+.scrolled #enroll_btn{
+    background: white;
+    color: var(--color-main);
+}
+span{
+    font-size: 40px;
+    font-weight: bold;
+    /* color: white; */
+}
+ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+ul li a{
+    color: var(--color-main);
+    text-decoration: none;
+    font-size: 14px;
+}
+#enroll_btn{
+    padding: 14px 40px;
+    background: var(--color-main);
+    border-radius: 10px;
+    color: white;
+}

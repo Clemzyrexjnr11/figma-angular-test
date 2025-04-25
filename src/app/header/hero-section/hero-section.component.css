@@ -1,0 +1,39 @@
+.hero_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid white; */
+}
+.section_container{
+    width: 85%;
+    gap: 20px;
+    height: fit-content;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_section .section_container .left{
+         height: fit-content;
+         /* color: var(--color-m); */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+.section_container .left .enroll_btn{
+    text-decoration: none;
+    width: fit-content;
+    padding: 14px 40px;
+    background: var(--color-main);
+    border-radius: 5px;
+    color: var(--color-sub);
+}
+h1{
+    /* color: white; */
+    font-size: 40px;
+    font-weight: var(--fw-bolder);
+}
+.right img{
+    height:400px;
+    border-radius: 20px;
+}
